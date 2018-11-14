@@ -18,7 +18,7 @@ void drawGUI() {
   background(0);
   for (int i = 1; i< box.length; i++ ) {
     box[i].display();
-    //box[i].labels(i);
+    box[i].labels(i);
   }
   drawLines();
 }
