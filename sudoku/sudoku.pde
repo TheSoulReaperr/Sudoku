@@ -13,8 +13,9 @@ void setup() {
 void draw() {
   drawGUI();
   checkComplete();
-  for(int i=1; i< 9; i++ ){
-    RowCheck(1);
+  for(int i=1; i< 82; i+=9 ){
+    RowCheck(i);
+    //ColumnCheck(i);
   }
 }
 
